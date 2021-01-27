@@ -1,0 +1,28 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk-cli": "^1.7.3",
+    "@fitbit/sdk": "^4.1.0"
+  },
+  "fitbit": {
+    "appUUID": "eeefe48c-6273-4ff8-8e23-07968ac5b5d1",
+    "appType": "clockface",
+    "appDisplayName": "Anime Watchface",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [
+      "access_activity"
+    ],
+    "buildTargets": [
+      "mira"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "Anime Watchface"
+      }
+    },
+    "defaultLanguage": "en-US"
+  },
+  "scripts": {
+    "build": "fitbit-build"
+  }
+}
