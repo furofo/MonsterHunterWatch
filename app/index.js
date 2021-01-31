@@ -4,6 +4,8 @@ import document from "document";
 // Tick every second
 clock.granularity = "seconds";
 
+let circleIDArr = ["12", "1215", "1230", "1245", "1"];
+/*
 let hourHand = document.getElementById("hours");
 let minHand = document.getElementById("mins");
 let secHand = document.getElementById("secs");
@@ -25,16 +27,33 @@ function secondsToAngle(seconds) {
   return (360 / 60) * seconds;
 }
 
+*/
 // Rotate the hands every tick
 function updateClock() {
-  let today = new Date();
-  let hours = today.getHours() % 12;
-  let mins = today.getMinutes();
-  let secs = today.getSeconds();
-
-  hourHand.groupTransform.rotate.angle = hoursToAngle(hours, mins);
-  minHand.groupTransform.rotate.angle = minutesToAngle(mins);
-  secHand.groupTransform.rotate.angle = secondsToAngle(secs);
+  //let today = new Date();
+ 
+  for(let i = 0; i < 6; i++) {
+     let id = document.getElementById(circleIDArr[i]);
+    
+    if(i == 5) {
+      for(let j = 0; j < 5; j++) {
+        console.log("inner loop here");
+        let id2 = document.getElementById(circleIDArr[j]);
+        id2.style.visibility = "hidden"
+        
+      }
+      
+     break;
+    }
+    
+    let id = document.getElementById(circleIDArr[i]);
+    if(id.style.visibility == "hidden") {
+       id.style.visibility = "visible";
+       break;
+    }
+  } 
+    
+  
 }
 
 // Update the clock every tick event
