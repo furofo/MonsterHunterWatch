@@ -5,31 +5,121 @@
   
   <g>
   
-  <circle cx="50%" cy="50%" r="10" fill="rgb(0,25,51)"/>
+  <circle cx="50%" cy="50%" r="9" class = "circleColor"/>
   </g>
   
   <g transform="translate(50%, 50%)" id = "12">
-    <circle cx="0%" cy="-40%" r="10" fill="rgb(15,252,252)"/>
+    <circle cx="0%" cy="-40%" r="9" class = "circleColor"/>
   </g>
   
-   <g transform="translate(50%, 50%) rotate(15)" visibility="hidden" id = "1215">
-    <circle cx="0%" cy="-41%" r="5" fill="rgb(15,252,252)"/>
+   <g transform="translate(50%, 50%) rotate(7.5)" visibility="hidden" id = "1215">
+    <circle cx="0%" cy="-41%" r="4" class = "circleColor"/>
      
   </g>
   
-   <g transform="translate(50%, 50%) rotate(30)" visibility="hidden" id = "1230">
-    <circle cx="0%" cy="-41%" r="5" fill="rgb(15,252,252)"/>
+   <g transform="translate(50%, 50%) rotate(15)" visibility="hidden" id = "1230">
+    <circle cx="0%" cy="-41%" r="4" class = "circleColor"/>
      
   </g>
   
-  <g transform="translate(50%, 50%) rotate(45)" visibility="hidden" id = "1245">
-    <circle cx="0%" cy="-41%" r="5" fill="rgb(15,252,252)"  />
+  <g transform="translate(50%, 50%) rotate(22.5)" visibility="hidden" id = "1245">
+    <circle cx="0%" cy="-41%" r="4" class = "circleColor"  />
      
   </g>
   
-    <g transform="translate(50%, 50%) rotate(60)" visibility="hidden" id = "1">
-    <circle cx="0%" cy="-40%" r="10" fill="rgb(15,252,252)"/>
+    <g transform="translate(50%, 50%) rotate(30)" visibility="hidden" id = "1">
+    <circle cx="0%" cy="-40%" r="9" class = "circleColor" />
      
   </g>
+  
+  
+  <g transform="translate(50%, 50%) rotate(37.5)" visibility="hidden" id = "115">
+    <circle cx="0%" cy="-41%" r="4" class = "circleColor"  />
+     
+  </g>
+  
+  
+  <g transform="translate(50%, 50%) rotate(45)" visibility="hidden" id = "130">
+    <circle cx="0%" cy="-41%" r="4" class = "circleColor"  />
+     
+  </g>
+  
+    <g transform="translate(50%, 50%) rotate(52.5)" visibility="hidden" id = "145">
+    <circle cx="0%" cy="-41%" r="4" class = "circleColor"  />   
+  </g>
+  
+   <g transform="translate(50%, 50%) rotate(60)" visibility="hidden" id = "2">
+    <circle cx="0%" cy="-40%" r="9" class = "circleColor" />
+     
+  </g>
+  
+    <g transform="translate(50%, 50%) rotate(67.5)" visibility="hidden" id = "215">
+    <circle cx="0%" cy="-41%" r="4" class = "circleColor"  />   
+  </g>
+  
+    <g transform="translate(50%, 50%) rotate(75)" visibility="hidden" id = "230">
+    <circle cx="0%" cy="-41%" r="4" class = "circleColor"  />   
+  </g>
+  
+    <g transform="translate(50%, 50%) rotate(82.5)" visibility="hidden" id = "245">
+    <circle cx="0%" cy="-41%" r="4" class = "circleColor"  />   
+  </g>
+  
+   <g transform="translate(50%, 50%) rotate(90)" visibility="hidden" id = "3">
+    <circle cx="0%" cy="-40%" r="9" class = "circleColor" />
+     
+  </g>
+  
+  <g transform="translate(50%, 50%) rotate(97.5)" visibility="hidden" id = "315">
+    <circle cx="0%" cy="-41%" r="4" class = "circleColor"  />   
+  </g>
+  
+  <g transform="translate(50%, 50%) rotate(105)" visibility="hidden" id = "330">
+    <circle cx="0%" cy="-41%" r="4" class = "circleColor"  />   
+  </g>
+  
+  <g transform="translate(50%, 50%) rotate(112.5)" visibility="hidden" id = "345">
+    <circle cx="0%" cy="-41%" r="4" class = "circleColor"  />   
+  </g>
+  
+  <g transform="translate(50%, 50%) rotate(120)" visibility="hidden" id = "4">
+    <circle cx="0%" cy="-40%" r="9" class = "circleColor"  />   
+  </g>
+
+  <g transform="translate(50%, 50%) rotate(127.5)" visibility="hidden" id = "415">
+    <circle cx="0%" cy="-41%" r="4" class = "circleColor"  />   
+  </g>
+
+  <g transform="translate(50%, 50%) rotate(135)" visibility="hidden" id = "430">
+    <circle cx="0%" cy="-41%" r="4" class = "circleColor"  />   
+  </g>
+
+  <g transform="translate(50%, 50%) rotate(142.5)" visibility="hidden" id = "445">
+    <circle cx="0%" cy="-41%" r="4" class = "circleColor"  />   
+  </g>
+   <g transform="translate(50%, 50%) rotate(150)" visibility="hidden" id = "5">
+    <circle cx="0%" cy="-41%" r="9" class = "circleColor"  />   
+  </g>
+
+  <g transform="translate(50%, 50%) rotate(157.5)" visibility="hidden" id = "515">
+    <circle cx="0%" cy="-41%" r="4" class = "circleColor"  />   
+  </g>
+
+  <g transform="translate(50%, 50%) rotate(165)" visibility="hidden" id = "530">
+    <circle cx="0%" cy="-41%" r="4" class = "circleColor"  />   
+  </g>
+  <g transform="translate(50%, 50%) rotate(172.5)" visibility="hidden" id = "545">
+    <circle cx="0%" cy="-41%" r="4" class = "circleColor"  />   
+  </g>
+  <g transform="translate(50%, 50%) rotate(180)" visibility="hidden" id = "6">
+    <circle cx="0%" cy="-41%" r="9" class = "circleColor"  />   
+  </g>
+  
+  
+  
+  
+  
+  
   
 </svg>
+

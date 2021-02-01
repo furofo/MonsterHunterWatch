@@ -4,7 +4,8 @@ import document from "document";
 // Tick every second
 clock.granularity = "seconds";
 
-let circleIDArr = ["12", "1215", "1230", "1245", "1"];
+let circleIDArr = ["12", "1215", "1230", "1245", "1", "115", "130", "145", "2", "215", "230", "245", "3", "315", "330", "345", "4",
+                  "415", "430", "445", "5", "515", "530", "545", "6"];
 /*
 let hourHand = document.getElementById("hours");
 let minHand = document.getElementById("mins");
@@ -32,11 +33,11 @@ function secondsToAngle(seconds) {
 function updateClock() {
   //let today = new Date();
  
-  for(let i = 0; i < 6; i++) {
+  for(let i = 0; i < 26; i++) {
      let id = document.getElementById(circleIDArr[i]);
     
-    if(i == 5) {
-      for(let j = 0; j < 5; j++) {
+    if(i == 25) {
+      for(let j = 0; j < 25; j++) {
         console.log("inner loop here");
         let id2 = document.getElementById(circleIDArr[j]);
         id2.style.visibility = "hidden"
