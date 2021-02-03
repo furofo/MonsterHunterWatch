@@ -31,7 +31,7 @@ function secondsToAngle(seconds) {
 
 */
 // Rotate the hands every tick
-function hoursToCircles(hours) { // used to display circles from hours
+function hoursToCircles(hours, mins) { // used to display circles from hours
   if(hours == 12 || hours == 0) { // if midnight or 12 sets everyting to blank but top cirlce
      for(let j = 0; j < 48; j++) {
         if(j == 0) {
@@ -54,7 +54,17 @@ function hoursToCircles(hours) { // used to display circles from hours
      let id = document.getElementById(circleIDArr[i]);
      if(circleIDArr[i] == String(hours)) {
        id.style.visibility = "visible";
+       let tempmins = mins;
+       let j = i;
+       while(tempmins >= 15) {
+             j += 1;
+             let id2 = document.getElementById(circleIDArr[j]);
+             id2.style.visibility = "visible";
+             tempmins -= 15;
+             }
+       break;
      }
+      id.style.visibility = "visible";
     
     
   }
@@ -75,7 +85,7 @@ function updateClock() {
   let mins = today.getMinutes();
   let secs = today.getSeconds();
   //console.log("hours is " + hours + " minutes is " + mins + " seconds is " + secs);
-  hoursToCircles(hours);
+  hoursToCircles(hours, mins);
   
   
  /*

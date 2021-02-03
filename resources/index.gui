@@ -8,7 +8,7 @@
   <circle cx="50%" cy="50%" r="9" class = "circleColor"/>
   </g>
   
-  <g transform="translate(50%, 50%)" id = "12">
+  <g transform="translate(50%, 50%)" id = "12" visibility="hidden">
     <circle cx="0%" cy="-40%" r="9" class = "circleColor"/>
   </g>
   
@@ -215,5 +215,6 @@
   <g transform="translate(50%, 50%) rotate(352.5)" visibility="hidden" id = "1145">
     <circle cx="0%" cy="-41%" r="4" class = "circleColor"  />   
   </g>
+</svg>
     
 
