@@ -31,13 +31,54 @@ function secondsToAngle(seconds) {
 
 */
 // Rotate the hands every tick
+function hoursToCircles(hours) { // used to display circles from hours
+  if(hours == 12 || hours == 0) { // if midnight or 12 sets everyting to blank but top cirlce
+     for(let j = 0; j < 48; j++) {
+        if(j == 0) {
+          console.log(" hour is 0 or 12 ");
+          
+        }
+       else{
+        let id2 = document.getElementById(circleIDArr[j]);
+        id2.style.visibility = "hidden";
+       }
+        
+      }
+  }
+  
+  
+  
+  
+  else { // otherwise will find the circle that matches to hour and then lights it up
+     for(let i = 0; i < 49; i++) {
+     let id = document.getElementById(circleIDArr[i]);
+     if(circleIDArr[i] == String(hours)) {
+       id.style.visibility = "visible";
+     }
+    
+    
+  }
+  } 
+}
+
+// maybe a funciton minutes to cirlce that sees if less then or greater than 15
+// if less than 15 nothing
+// if greater than - 15 light up next bubble
+// check if greater than 15 again
+// if not do nothing
+// if greate r than 15 lightnup next bullbe - 15
+
 function updateClock() {
   let today = new Date();
   let hours = today.getHours() % 12;
+
   let mins = today.getMinutes();
   let secs = today.getSeconds();
-  console.log("hours is " + hours + " minutes is " + mins + " seconds is " + secs);
- 
+  //console.log("hours is " + hours + " minutes is " + mins + " seconds is " + secs);
+  hoursToCircles(hours);
+  
+  
+ /*
   for(let i = 0; i < 49; i++) {
      let id = document.getElementById(circleIDArr[i]);
     
@@ -59,7 +100,7 @@ function updateClock() {
     }
   } 
     
-  
+  */
 }
 
 // Update the clock every tick event
